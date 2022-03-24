@@ -57,4 +57,4 @@ group by g.Name
 return @Count
 end
 
-select dbo.getStuCountByGroupName('P224')
+select dbo.getStuCountByGroupName('P221')
