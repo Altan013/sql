@@ -26,7 +26,7 @@ values('Altan', 'Ibrahimli', '3'),
 ('David', 'Qayibov', '1'),
 ('Mayil', 'Kerimov', '1')
 
-select * from Students s inner join Groups g on s.GroupId = g.Id where g.Name='P221'
+select * from Students s inner join Groups g on s.GroupId = g.Id where g.Name='P224'
 
 select g.Name,count(s.Id) as [say] from Students s inner join Groups g on s.GroupId = g.Id group by g.Name
 
